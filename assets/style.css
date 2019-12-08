@@ -1,3 +1,8 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
 hr {
     display: block;
     unicode-bidi: isolate;
@@ -11,9 +16,8 @@ hr {
 }
 
 body {
-    background-image: url("homework/assets/images/mosaic.png");
-    display: block;
-    margin: 0px;
+    background: url("/Users/harrisonthomas/homework/portfolio2.0/assets/images/crossline-lines.png");
+    background-color: transparent;
 }
 
 .container {
@@ -26,6 +30,7 @@ body {
 
 .card {
     border: none;
+    color: #002B36;
 }
 
 footer {
@@ -42,4 +47,13 @@ footer {
 
 h4 {
     font-size: 14px;
+}
+
+.navbar-brand {
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    color: #002B36;
 }
