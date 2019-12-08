@@ -1,0 +1,41 @@
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+body {
+    background-image: url("homework/assets/images/mosaic.png");
+    display: block;
+    margin: 0px;
+}
+
+.container {
+    background-color: #FDF6E3;
+    margin: 20px 50px;
+    border: 5px solid #FDF6E3;
+    padding: 20px;
+    width: auto;
+}
+
+h1 {
+    color:#002B36;
+}
+
+p {
+    color: #002B36
+}
+
+img {
+    display: block;
+    height: 200px;
+    width: auto;
+    float: left;
+    position: relative;
+}
