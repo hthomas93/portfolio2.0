@@ -57,3 +57,17 @@ h4 {
 p {
     color: #002B36;
 }
+
+.form-control {
+    width: 350%;
+}
+
+#contactrow {
+    padding: 15px;
+}
+
+.btn-primary {
+    background: #BEA8A7;
+    color: #002B36;
+    margin: 10px 0;
+}
