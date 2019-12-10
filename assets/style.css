@@ -71,3 +71,37 @@ p {
     color: #002B36;
     margin: 10px 0;
 }
+
+.imgcontainer {
+    position: relative;
+    display: inline-block;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 10px solid white;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    height: 180px;
+    width: 180px;
+}
+
+#portfolioContainer {
+    height: 100%;
+    overflow: visible;
+}
+
+.card-body {
+    padding: .5rem;
+    text-align: center;
+}
+.card-title {
+    border: solid 2px #BEA8A7;
+}
+
+.card-img-top {
+    border: solid 2px #BEA8A7;
+}
