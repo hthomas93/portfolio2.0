@@ -59,7 +59,7 @@ p {
 }
 
 .form-control {
-    width: 350%;
+    width: 640px;
 }
 
 #contactrow {
@@ -83,24 +83,14 @@ p {
 }
 
 img {
-    vertical-align: middle;
     border-style: none;
-    height: 180px;
-    width: 180px;
-}
-
-#portfolioContainer {
     height: 100%;
-    overflow: visible;
+    width: 100%;
 }
 
 .card-body {
     padding: .5rem;
     text-align: center;
-}
-.card-title {
-    border: solid 2px #BEA8A7;
-    background-color:  #BEA8A7;;
 }
 
 .card-img-top {
