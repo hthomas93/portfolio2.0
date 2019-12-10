@@ -100,8 +100,9 @@ img {
 }
 .card-title {
     border: solid 2px #BEA8A7;
+    background-color:  #BEA8A7;;
 }
 
 .card-img-top {
-    border: solid 2px #BEA8A7;
+    border: solid 10px #BEA8A7;
 }
