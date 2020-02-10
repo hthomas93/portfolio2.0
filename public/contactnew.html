@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
+    <title>Contact</title>
     <!-- Linking Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -17,27 +17,36 @@
 
 <body id="contact-body">
     <div class="row navbar-row">
-        <a class="link-anchor" href="aboutme.html">About Me</a>
-        <a class="link-anchor" href="portfolionew.html">Portfolio</a>
-        <a class="link-anchor" href="contactnew.html">Contact</a>
+        <a class="link-anchor" href="../public/aboutme.html">About Me</a>
+        <a class="link-anchor" href="../public/portfolionew.html">Portfolio</a>
+        <a class="link-anchor" href="../public/contactnew.html">Contact</a>
     </div>
+
     <div class="container-fluid" id="contact-container">
         <div class="row">
             <div id="contact-title" class="col-md-4">
-                <h1>About Me</h1>
-                <small>INFJ - Type 9 - Gryffindor - Scorpio</small>
+                <h1>Contact Me</h1>
+                <small>For every message I receive, the howling gale of insecurity grows ever quieter.</small>
             </div>
 
             <div class="col-md-8">
-                <h2>Harrison Thomas</h2>
-                <hr>
-                <p>Existential questions aside, I am an aspiring web developer from Austin, Texas. I have a degree in
-                    English from UT Austin and a profound love of the arts. I have always loved puzzles and sought out
-                    opportunities to learn more and maintain a sense of wonder about the world. My hobbies include
-                    running, watching and discussing films, hiking, and cooking. With a background in customer service
-                    and management, I make an ideal small team leader, and am always striving to improve my ability to
-                    coordinate my peers to accomplish tasks quickly and cleanly.</p>
-                <img src="assets/images/IMG-0221.JPEG" class="profile-image" alt="...">
+                <form id="form-stuff">
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="input-name" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage">Message</label>
+                        <input type="text" class="form-control" id="inputMessage"
+                            placeholder="Write me a little something here!">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </div>
     </div>
