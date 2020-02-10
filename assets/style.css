@@ -1,6 +1,46 @@
 html, body{
     margin: 0;
     height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    text-align: right;
+}
+
+.profile-image {
+    height:auto;
+    width:auto;
+}
+
+.fieldrow {
+    justify-content: center;
+}
+
+.navbar-row {
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.portfolio-a {
+    background-color:white;
+    color:black
+}
+
+.portfolio-img {
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.port-card {
+    display:flex;
+    float:left;
+    margin: 25px;
+    padding: 10px;
+    border: 2px solid black;
 }
 
 hr {
@@ -16,7 +56,7 @@ hr {
 }
 
 body {
-    background: url("/Users/harrisonthomas/homework/portfolio2.0/assets/images/crossline-lines.png");
+    /* background: url("/Users/harrisonthomas/homework/portfolio2.0/assets/images/crossline-lines.png"); */
     background-color: transparent;
 }
 
@@ -63,12 +103,12 @@ p {
     width: 640px;
 }
 
-#contactrow {
+.contactrow {
     padding: 15px;
 }
 
 .btn-primary {
-    background: #BEA8A7;
+    background: white;
     color: #002B36;
     margin: 10px 0;
 }
@@ -83,10 +123,8 @@ p {
     border: 10px solid white;
 }
 
-img {
-    border-style: none;
-    height: 100%;
-    width: 100%;
+.portfolio-img {
+    margin: 10px;
 }
 
 .card-body {
@@ -104,12 +142,84 @@ img {
     text-align: center;
 }
 
+#howdy {
+    text-align: center;
+    font-size: 7em;
+    font-weight: 500;
+    font-style: italic;
+    color:white;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: grey;
+}
+
+#howdy:hover {
+    color:white;
+    transition: all 280ms;
+    background-color: black;
+}
+
+.me-icon {
+    height: 250px;
+    width: 250px;
+}
+
+#img-row {
+    justify-content: center;
+}
+
+#link-row {
+    justify-content: center;
+}
+
+.link-anchor {
+    height: 100px;
+    width: 150px;
+    margin:10px;
+    color: black;
+    text-align: center;
+    padding-top: 35px;
+    display: block;
+    float:right;
+}
+
+.link-anchor:hover {
+    background-color:black;
+    color: white;
+    transition: all 280ms ease-in-out;
+    text-decoration: none;
+}
+
+#contact-jumbo {
+    text-align: center;
+}
+
+#form-stuff {
+    
+}
+
+#contact-body {
+    /* background: url("/Users/harrisonthomas/homework/portfolio2.0/assets/images/crossline-lines.png"); */
+    background-color: transparent;
+}
+
+#contact-container {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#contact-title {
+    text-align: center;
+    padding-top:20px;
+}
+
 @media screen and (max-width: 768px) {
     .form-control {
         width: 450px;
     }
     .card-img {
-        width: 180px;
+        width: auto;
         height: auto;
     }
 
@@ -138,3 +248,4 @@ img {
         text-align: center;
     }
 }
+
